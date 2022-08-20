@@ -1,0 +1,39 @@
+{
+  "name": "expo-beacon",
+  "version": "0.1.0",
+  "description": "Beacon Detector",
+  "main": "build/ExpoBeacon.js",
+  "types": "build/ExpoBeacon.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-beacon",
+    "ExpoBeacon"
+  ],
+  "repository": "https://github.com/newoceaninfosys/expo-beacon",
+  "bugs": {
+    "url": "https://github.com/newoceaninfosys/expo-beacon/issues"
+  },
+  "author": "Shawn Dao <sang.dao@nois.vn> (https://github.com/newoceaninfosys)",
+  "license": "MIT",
+  "homepage": "https://github.com/newoceaninfosys/expo-beacon#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "expo-module-scripts": "^2.0.0",
+    "expo-modules-core": "^0.11.3"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}

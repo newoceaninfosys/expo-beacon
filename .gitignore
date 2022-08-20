@@ -1,0 +1,9 @@
+node_modules/
+.DS_STORE
+build/
+.idea
+.gradle
+local.properties
+
+npm-debug.log
+yarn-error.log
